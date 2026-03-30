@@ -11,4 +11,7 @@
         return;
     }
 
+    let percentual = (carga / alvo) * 100;
+    let displayPercentual = Math.round(percentual);
+
  }
