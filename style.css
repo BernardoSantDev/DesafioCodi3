@@ -130,6 +130,11 @@ button:hover{
     font-family: 'Courier New', monospace;
 }
 
+#porcento span {
+    font-size: 1rem;
+    color: #64748b;
+}
+
 
 
 
