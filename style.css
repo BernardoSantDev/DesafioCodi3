@@ -93,7 +93,20 @@ input:focus{
 }
 
 
-
+button {
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 1px solid #00f2ff;
+    border-radius: 10px;
+    color: #00f2ff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+}
 
 
 
