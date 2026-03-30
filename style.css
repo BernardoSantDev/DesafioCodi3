@@ -108,6 +108,11 @@ button {
     overflow: hidden;
 }
 
+button:hover{
+    background: rgba(0, 242, 255, 0.5);
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.3);
+    letter-spacing: 3px;
+}
 
 
 
