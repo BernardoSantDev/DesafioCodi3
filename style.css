@@ -143,3 +143,13 @@ button:hover{
     min-height: 1em;
 }
 
+
+
+#modobarra {
+    height: 100%;
+    width: 0%; 
+    background: linear-gradient(90deg, #1e3a8a, #00f2ff);
+    border-radius: 8px;
+    transition: width 1.2s cubic-bezier(0.23, 1, 0.32, 1), background 0.8s;
+    position: relative;
+}
