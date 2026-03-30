@@ -43,3 +43,8 @@ h2{
     margin-bottom: 2rem;
     text-align: center;
 }
+
+h2 strong{ 
+    font-weight: 700; 
+    color: #e2e8f0;
+}
