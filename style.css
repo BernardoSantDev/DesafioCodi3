@@ -60,6 +60,20 @@ label{
     color: #64748b;
 }
 
+input{
+    width: 100%;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    color: #00f2ff;
+    font-size: 1.1rem;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    font-family: 'Courier New', monospace;
+}
+
 
 
 
