@@ -36,7 +36,6 @@ body{
 }
 
 h2{
-    text-transform: uppercase;
     font-weight: 200;
     font-size: 1.1rem;
     color: #64748b;
@@ -52,3 +51,30 @@ h2 strong{
 .input-group{
     margin-bottom: 1.5rem;
 }
+
+label{
+    display: block;
+    font-size: 0.75rem;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #64748b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
