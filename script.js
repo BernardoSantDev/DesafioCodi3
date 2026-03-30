@@ -19,4 +19,6 @@
     modobarra.style.width = tamanho + "%";
     porcento.innerText = displayPercentual + "<span>%</span>";
 
+    modobarra.classList.remove("overcharge");
+    mensagem.style.color = "#64748b";
  }
