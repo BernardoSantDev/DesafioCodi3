@@ -34,3 +34,12 @@ body{
     background: linear-gradient(90deg, transparent, #00f2ff, transparent);
     box-shadow: 0 0 10px #00f2ff;
 }
+
+h2{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1.1rem;
+    color: #64748b;
+    margin-bottom: 2rem;
+    text-align: center;
+}
