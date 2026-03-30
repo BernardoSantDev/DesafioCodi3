@@ -21,4 +21,17 @@
 
     modobarra.classList.remove("overcharge");
     mensagem.style.color = "#64748b";
+
+    if(percentual < 50){
+        carga.style.backgroundColor = "linear-gradient(90deg, #1e3a8a, #00f2ff)";
+        mensagem.innerText = "> STATUS: INICIALIZANDO CARGA.";
+    }
+    else if(percentual < 100){
+        carga.style.backgroundColor = "linear-gradient(90deg, #1e3a8a, #3fff00)";
+        mensagem.innerText = "> STATUS: CARGA EM PROGRESSO.";
+    }
+    else{
+        carga.classList.add("overcharge");
+        mensagem.innerText = "> STATUS: CARGA COMPLETA.";
+    }
  }

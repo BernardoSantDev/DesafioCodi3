@@ -135,5 +135,11 @@ button:hover{
     color: #64748b;
 }
 
-
+.mensagem{
+    font-size: 0.8rem; 
+    color: #64748b; 
+    margin: 0;
+    margin-bottom: 2rem;
+    min-height: 1em;
+}
 
