@@ -10,3 +10,16 @@ body{
     padding: 20px;
     letter-spacing: 0.5px;
 }
+
+.painel{
+    background: rgba(6, 11, 25, 0.7);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    border-radius: 20px;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 480px;
+    box-shadow: 0 0 30px rgba(0, 242, 255, 0.5);
+    position: relative;
+    overflow: hidden;
+}
