@@ -14,4 +14,6 @@
     let percentual = (carga / alvo) * 100;
     let displayPercentual = Math.round(percentual);
 
+    const tamanho = percentual > 100 ? 100 : percentual;
+
  }
