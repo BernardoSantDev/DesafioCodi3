@@ -5,5 +5,10 @@
     const porcento = document.getElementById('porcento');
     const mensagem = document.getElementById('mensagem');
 
+    if(isNaN(alvo) || isNaN(carga) || alvo <= 0){
+        mensagem.innerText = "> ERRO: DADOS INVÁLIDOS DETECTADOS.";
+        mensagem.style.color = "#ef4444";
+        return;
+    }
 
  }
