@@ -16,4 +16,7 @@
 
     const tamanho = percentual > 100 ? 100 : percentual;
 
+    modobarra.style.width = tamanho + "%";
+    porcento.innerText = displayPercentual + "<span>%</span>";
+
  }
