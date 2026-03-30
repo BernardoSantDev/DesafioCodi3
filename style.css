@@ -48,3 +48,7 @@ h2 strong{
     font-weight: 700; 
     color: #e2e8f0;
 }
+
+.input-group{
+    margin-bottom: 1.5rem;
+}
