@@ -153,3 +153,18 @@ button:hover{
     transition: width 1.2s cubic-bezier(0.23, 1, 0.32, 1), background 0.8s;
     position: relative;
 }
+
+
+#modobarra::after {
+    content: '';
+    position: absolute;
+    right: 0; top: 0;
+    width: 10px;
+    height: 100%;
+    background: white;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 0 15px white, 0 0 30px #00f2ff;
+    opacity: 0.8;
+}
+
+
